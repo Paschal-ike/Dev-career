@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <header>
+      <h1>Paschal Johnpaul</h1>
+    </header>
+    
+    <!-- Summary -->
+    <article>
+      <h2>Summary</h2>
+      <p>
+        I'm passionate about technology and enjoy exploring and learning new concepts in web development.
+        My goal is to enhance my skills in web development, gain practical knowledge, and build a wonderful network that will help me excel in my career.
+      </p>
+    </article>
+    
+    <!-- Education -->
+    <article>
+      <h2>Education</h2>
+      <ul>
+        <li>Professional Certification from Coursera</li>
+        
+      </ul>
+    </article>
+    
+    <!-- Job Experiences -->
+    <article>
+      <h2>Job Experiences</h2>
+      <ul>
+        <li>Currently Seeking Tech Internship </li>
+      </ul>
+    </article>
+    
+    <!-- Hobby -->
+    <article>
+      <h2>Hobby</h2>
+      <p>
+        In my free time, I enjoy reading, running, and experimenting with new coding projects.
+      </p>
+    </article>
+    
+    <!-- Other Skills -->
+    <article>
+      <h2>Other Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <!-- Add more skills as needed -->
+      </ul>
+    </article>
+    
+    <div class="calculator">
+        <input type="text" id="display" readonly>
+        <div class="buttons">
+          <button>7</button>
+          <button>8</button>
+          <button>9</button>
+          <button>+</button>
+          <button>4</button>
+          <button>5</button>
+          <button>6</button>
+          <button>-</button>
+          <button>1</button>
+          <button>2</button>
+          <button>3</button>
+          <button>*</button>
+          <button>0</button>
+          <button>.</button>
+          <button>=</button>
+          <button>/</button>
+          <button>%</button>
+          <button>AC</button>
+        </div>
+      </div>
+    <!-- Contact Form -->
+    <article>
+      <h2>Contact Me</h2>
+      <form action="submit" method="POST" id="contactForm">
+        <div>
+          <label for="name">Name:</label><br>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+          <label for="message">Message:</label><br>
+          <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+        </div>
+        <div>
+          <label for="priority">Priority</label><br>
+          <select id="priority" required>
+            <option value="" disabled selected>Select priority</option>
+            <option value="Low">Low</option>
+            <option value="Medium">Medium</option>
+            <option value="High">High</option>
+          </select>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </article>
+  </div>
+</body>
+</html>
