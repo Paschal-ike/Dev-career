@@ -1,52 +1,132 @@
-/* Reset and basic styles */
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+/* Custom styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   
-  body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-  }
-  
-  /* Navigation */
-  .navbar {
-    background-color: #333;
-  }
-  
-  .navbar-brand,
-  .nav-link {
+  /* Hero section */
+  #home {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('hero-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     color: #fff;
   }
   
-  /* Hero Section */
-  .hero {
-    background-color: #f4f4f4;
-    padding: 80px 0;
-    text-align: center;
+  #home h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
   }
   
-  /* About Section */
-  .about {
-    padding: 80px 0;
+  #home p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
   }
   
-  /* Projects Section */
-  .projects {
-    background-color: #f4f4f4;
-    padding: 80px 0;
+  .cta-button {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s ease;
   }
   
-  /* Contact Section */
-  .contact {
-    padding: 80px 0;
+  .cta-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* About section */
+  #about {
+    padding: 5rem 0;
+  }
+  
+  .bio img {
+    max-width: 200px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  /* Portfolio section */
+  #portfolio {
+    padding: 5rem 0;
+    background-color: #f8f9fa;
+  }
+  
+  .portfolio-categories button {
+    margin-right: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .project {
+    margin-bottom: 2rem;
+  }
+  
+  .project img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  
+  /* Testimonials section */
+  #testimonials {
+    padding: 5rem 0;
+  }
+  
+  .testimonial {
+    margin-bottom: 2rem;
+  }
+  
+  .testimonial blockquote {
+    font-style: italic;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Contact section */
+  #contact {
+    padding: 5rem 0;
+    background-color: #f8f9fa;
+  }
+  
+  .contact-info {
+    margin-bottom: 2rem;
+  }
+  
+  .social-links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .social-links li {
+    display: inline-block;
+    margin-right: 1rem;
+  }
+  
+  /* Services section */
+  #services {
+    padding: 5rem 0;
+  }
+  
+  .service {
+    margin-bottom: 2rem;
   }
   
   /* Footer */
   footer {
-    background-color: #333;
+    background-color: #343a40;
     color: #fff;
-    padding: 20px 0;
-    text-align: center;
+    padding: 2rem 0;
+  }
+  
+  footer nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 1rem;
+  }
+  
+  footer p {
+    margin-bottom: 0;
   }
